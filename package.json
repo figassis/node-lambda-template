@@ -5,16 +5,17 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/rebelmail/node-lambda-template.git"
+    "url": "git://github.com/figassis/node-lambda-template.git"
   },
   "author": "motdotla",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/rebelmail/node-lambda-template/issues"
+    "url": "https://github.com/figassis/node-lambda-template/issues"
   },
-  "homepage": "https://github.com/rebelmail/node-lambda-template",
+  "homepage": "https://github.com/figassis/node-lambda-template",
   "dependencies": {
-    "node-lambda": "0.1.5"
+    "node-lambda": "^0.8.11",
+    "request": "^2.79.0"
   },
   "scripts": {
     "setup": "node-lambda setup",
